@@ -122,7 +122,7 @@ margin:0;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding:60px;
+padding:50px;
 flex:.1;
 }
 
@@ -148,5 +148,22 @@ flex:.1;
     font-size: 20px;
 }
 
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action{
+    display:flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    width:60%;
+    margin:80px;
+    padding: 30px 50px;
+}
 
 
