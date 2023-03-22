@@ -100,7 +100,7 @@ h2 {
 .img-text img{
     width:200px;
     padding:0;
-    margin 0 25px;
+    margin: 0 25px;
     height: 200px;
     border-radius: 15px;
     border:2px solid #3882f6;
@@ -112,5 +112,41 @@ h2 {
     margin: 0;
     margin-bottom: 10px;
     width:150px;
-    color:;
 }
+
+.second-bottom{
+display:flex;
+flex-wrap: wrap;
+background-color: #e5e7eb;
+margin:0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding:60px;
+flex:.1;
+}
+
+.second-bot-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 30px;
+    color:#1f2937;
+}
+
+.quoter{
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+
+
