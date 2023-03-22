@@ -166,4 +166,35 @@ flex:.1;
     padding: 30px 50px;
 }
 
+.call-to-action div, .call-to-action p, .call-to-action button{
+    margin:0;
+    padding:0;
+}
 
+.call-to-action,.cod{
+    font-weight: bold;
+}
+
+.call-to-action p{
+    font-weight: normal;
+}
+
+button{
+    display:block;
+    flex:.3 0 auto;
+    background-color: #3882f6;
+    height:30px;
+    color: #f9faf8;
+    border:1px solid white;
+    font-weight: 500;
+    padding: 5px 18px;
+    border-radius: 5px;
+}
+
+.call-to-action button {
+    padding:5px 18px;
+}
+
+.top button {
+    border: none;
+}
