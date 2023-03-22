@@ -122,7 +122,7 @@ margin:0;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding:50px;
+padding:70px;
 flex:.1;
 }
 
@@ -193,8 +193,25 @@ button{
 
 .call-to-action button {
     padding:5px 18px;
+    margin-left: 20px;
 }
 
 .top button {
     border: none;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    flex:0 1 auto;
+    font-size: 15px;
+}
+
+span{
+    padding:20px 0px;
 }
